@@ -2,7 +2,9 @@
 
 A SwiftUI demonstration project showcasing modern onboarding flow implementation for iOS 18+ using ScrollView-based navigation. This project demonstrates best practices for creating controlled, programmatic onboarding experiences that leverage the latest SwiftUI APIs.
 
-![Onboarding Image](onboarding-demo.gif)
+<p align="center" width="100%">
+    <img width="33%" src="onboarding-demo.gif" alt="Onboarding Image"> 
+</p>
 
 ## 🎯 What This Project Demonstrates
 
