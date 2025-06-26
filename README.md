@@ -154,6 +154,8 @@ struct OnboardingView: View {
         .scrollIndicators(.hidden)
         .scrollDisabled(true)
         .onAppear {
+            // Ensure the onboarding starts at the first page.
+            // If not set explicitly, position may be undefined.
             position.scrollTo(id: OnboardingPage.first.id)
         }
     }

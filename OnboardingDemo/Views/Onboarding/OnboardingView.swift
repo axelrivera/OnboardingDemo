@@ -77,6 +77,8 @@ struct OnboardingView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color(.systemBackground))
         .onAppear {
+            // Ensure the onboarding starts at the first page.
+            // If not set explicitly, position may be undefined.
             position.scrollTo(id: OnboardingPage.first.id)
         }
     }
