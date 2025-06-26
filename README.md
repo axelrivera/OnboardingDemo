@@ -251,8 +251,8 @@ The modular structure makes it straightforward to customize for any app's onboar
 
 ## 🏗 Built With
 
-iOS 18.0+
-Xcode 26 Beta 2
+iOS 18.0+  
+Xcode 26 Beta 2  
 Swift 6.2
 
 This approach provides a production-ready foundation for sophisticated onboarding flows that take full advantage of modern SwiftUI capabilities.
